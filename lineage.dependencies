@@ -1,8 +1,8 @@
 [
   {
-    "repository": "oplus-ossi-development/proprietary_vendor_oplus_ivan",
+    "repository": "Ko_Hi/mt6877.git",
     "target_path": "vendor/oplus/ivan",
-    "branch": "lineage-21",
-    "remote": "github"
+    "branch": "master",
+    "remote": "gitlab"
   }
 ]
