@@ -19,10 +19,6 @@ DEVICE_PATH := device/oplus/ivan
 # Inherit from ossi device
 $(call inherit-product, device/oplus/mt6877-common/ossi.mk)
 
-# Alert slider
-PRODUCT_PACKAGES += \
-    alert-slider_daemon
-
 # Display saturation adjust
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.sf.color_saturation=0.95
