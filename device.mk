@@ -25,8 +25,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayivan \
-    SettingsProviderOverlayivan
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/ivan/ivan-vendor.mk)
