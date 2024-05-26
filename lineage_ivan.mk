@@ -32,10 +32,8 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus Nord 2 5G
 PRODUCT_MANUFACTURER := OnePlus
 
+# Build info
+BUILD_FINGERPRINT := "OnePlus/IV2201EEA/OP555BL1:13/TP1A.220905.001/R.108b2c1-1:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES := PRIVATE_BUILD_DESC="sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1684289553451 release-keys"
+PRODUCT_PROPERTY_OVERRIDES := ro.build.fingerprint=$(BUILD_FINGERPRINT)
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1670672091529 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "oplus/ossi/ossi:12/SP1A.210812.016/1662019990870:user/release-keys"
