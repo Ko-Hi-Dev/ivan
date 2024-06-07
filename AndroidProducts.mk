@@ -21,3 +21,6 @@ COMMON_LUNCH_CHOICES := \
     lineage_ivan-user \
     lineage_ivan-userdebug \
     lineage_ivan-eng
+    aosp_ivan-user
+    aosp_ivan-userdebug
+    aosp_ivan-eng
