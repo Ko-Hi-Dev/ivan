@@ -15,7 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ivan.mk
+    $(LOCAL_DIR)/lineage_ivan.mk \
+    $(LOCAL_DIR)/aosp_ivan.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_ivan-user \
